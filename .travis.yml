@@ -1,0 +1,7 @@
+language: dart
+dart:
+- stable
+- dev
+- "2.5.2"
+dart_task:
+  - dartanalyzer: --fatal-warnings lib
